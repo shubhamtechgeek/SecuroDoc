@@ -1,6 +1,6 @@
 FROM eclipse-temurin:21-alpine
 
-# Set the working directory in the container
+# Set the working directory in the container as app
 WORKDIR /app
 
 # Copy the executable JAR file into the container at /app
