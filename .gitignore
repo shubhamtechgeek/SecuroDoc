@@ -1,0 +1,41 @@
+HELP.md
+securoDoc/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+SecuroDoc/.idea
+*/.idea
+*.iws
+*.iml
+*.ipr
+*/.DS_store
+*/node_modules
+
+SecuroDoc/src/main/resources/application-*.yml
+SecuroDoc/src/main/resources/data/*
+
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+/target/
